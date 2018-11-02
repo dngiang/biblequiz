@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bible Quiz</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<header role= "banner"> <!--Okay-->
+	   <h1> <img src="https://mbtskoudsalg.com/images/catholic-clipart-cross-line-3.jpg" alt="Bible logo image" class="logo-img">Bible Quiz</h1>
+	</header>
+	<main role= "main">
+    <section role= "region" class="start-section">
+			  <p>Are you ready?</p>
+		  	<input type="button" class="start-btn js-start-btn" value="Start">
+	  </section>
+	  	
+	  <div class="quiz-frame"> <!--Okay-->
+			 <div class="progress-section">
+			    <span class="question-count"></span>
+			    <hr>
+			    <img src="http://worldartsme.com/images/bar-chart-clipart-1.jpg" alt="bar board image" class="bar-img">
+
+			    <span class="bar-graph"></span>
+
+			 </div>
+			 
+		  <div class="quiz-section"> <!--Okay-->
+		 	  <form class="questions-form">
+           <fieldset>
+				  <legend></legend>
+				  <label class="choices">
+				    <input tabindex="1" id="optionone" type="radio" name="choice" value="optionone" checked>
+				    <span></span>             
+				  </label>
+				   <label class="choices">
+				    <input tabindex="1" id="optiontwo" type="radio" name="choice" value="optiontwo">
+				    <span></span>
+				  </label>
+				   <label class="choices">
+				    <input tabindex="1" id="optionthree" type="radio" name="choice" value="optionthree">
+				    <span></span>
+				  </label>
+				   <label class="choices">
+				    <input tabindex="1" id="optionfour" type="radio" name="choice" value="optionfour">
+				    <span></span>
+				  </label>
+				  <input tabindex="2" type="button" value="Submit" class="submit-btn js-submit-btn">
+          </fieldset>
+			  </form>	
+			</div>
+		</div>
+
+      <section role= "region" class="feedback-section">  <!--Okay-->
+        <div class="popup-frame">
+          <button type="button" class="close-btn js-close-btn">X</button>
+          <img src="" class="feedback-icon">
+          <span id="popup-text"></span>
+        </div>
+      </section>
+      
+		  <section role= "region" class="end-section">  <!--Okay-->
+		  	<h4></h4>
+		  	<div class="correct">
+		  	  <img src="http://getdrawings.com/cliparts/sun-moon-stars-clipart-1.jpg" alt="correct-icon">
+		  	  <span class="count"></span>
+		  	 </div>
+		  	 <div class="wrong">
+		  	   	<img src="http://tadalafilforsale.net/data/media/116/64362094.jpg">
+		    	  <span class="count"></span>
+		  	 </div>
+		     <input type="button" class="reset-btn js-reset-btn" value="Reset">
+		  </section>
+	</main>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script src="//code.jquery.com/jquery.min.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+</html>

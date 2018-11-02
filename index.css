@@ -1,0 +1,205 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+  height: 100%;
+}
+
+body{
+  background: url(https://wonderfulengineering.com/wp-content/uploads/2014/10/simple-wallpaper-26.jpg) no-repeat;
+ /* background-color: #088888; */
+ font-size: 15px;
+ background-size:cover;
+ /* height: 1800px; */
+ min-height: 100%;
+}
+
+header{
+  border-radius: 10px;
+  text-align: center;
+  height: 80px;
+  margin: 20px;
+  color: black;
+  background-color: white;
+  padding: 3px;
+}
+
+fieldset{
+  background: none;
+  border: none;
+}
+
+.logo-img{
+  width: 55px;
+  height: 50px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.start-section, .end-section, .popup-frame{
+  font-size: 20px;
+  border: 2px solid white;
+  color: white;
+}
+
+.start-section, .end-section{
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.start-btn{
+  border-radius: 12px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  padding: 10px 15px;
+}
+
+.start-btn:hover{
+  background-color:  gray;
+}
+
+.quiz-frame{
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 30px;
+  /* background-color: white; */
+  border-radius: 15px;
+  margin-top: 20px;
+  border: 2px solid white;
+  color: white;
+  position: relative;
+}
+
+.progress-section, .questions-form, .bar-graph{
+  padding: 5px;
+}
+ 
+.bar-img{
+  width: 45px;
+  height: 45px;
+  position: relative;
+  /* left: 450px;
+  top: 10px; */
+  margin: 0px;
+  display: inline-block;
+
+}
+
+.bar-graph{
+ position: relative; 
+ display: inline-block;
+ /* left: 500px; 
+ top: 25px; */
+ font-weight: bold;
+ font-size: 20px;
+}
+
+.questions-form p{
+  font-size: 18px;
+}
+
+.choices{
+  display: block;
+  border: 1px solid #e0e0d1;
+  border-radius: 10px;
+  /* background-color: white; */
+  margin: 10px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.submit-btn{
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 5px;
+  margin: 0 auto;
+  display: block;
+  color: black;
+}
+
+.submit-btn:hover{
+  background-color:  gray;
+}
+
+.feedback-section{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: rgba(0,0,0,0.5);
+ }
+
+.popup-frame{
+  max-width: 600px;
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 180px;
+  position: relative;
+  background-color:white;
+  color: black;
+}
+
+.end-section{
+  background-color: white;
+  color: black;
+}
+
+#popup-text{
+  display: block;
+  text-align: center;
+}
+
+.close-btn{
+  display: block;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  background: #ebebe0;
+  border-radius: 800px;
+  width: 30px;
+  height: 30px;
+  padding: 0px;
+  font-size: 20px;
+}
+
+.popup-frame img{
+  height: 150px;
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+.end-section h4{
+  margin: 0px;
+  color: black;
+}
+
+.end-section img{
+  height: 35px;
+  width: 35px;
+  margin: 10px;
+  vertical-align: middle;
+}
+
+.count{
+  font-size: 20px;
+}
+
+.reset-btn{
+  margin-top: 15px;
+  font-size: 15px;
+  padding: 10px;
+  border: solid black;
+  border-radius: 10px;
+}
